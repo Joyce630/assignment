@@ -1,10 +1,10 @@
 <!--two ways to get input and return output-->
 
 function show_topic() {
-    var x = 0;   <!--不明-->
+    var x = 0;   <!--这里把xy赋值为0不会影响什么，这么做只是为了清晰表示有这两个参数，之后input的数值会直接覆盖掉0这个值-->
     var y = 0;
     z= get_input(x,y);
-    var my_answer = document.getElementById("demo");   <!--这一行怎么理解-->
+    var my_answer = document.getElementById("demo");   
     my_answer.style.fontSize = "25px";
     my_answer.style.color = "red";
     my_answer.style.background="green";
@@ -16,7 +16,7 @@ function show_topic2(){
     var x = 0;  
     var y = 0;
     z= get_input2(x,y);
-    var my_answer = document.getElementById("demo");   <!--这一行怎么理解-->
+    var my_answer = document.getElementById("demo");   
     my_answer.style.fontSize = "25px";
     my_answer.style.color = "red";
     my_answer.style.background="green";
