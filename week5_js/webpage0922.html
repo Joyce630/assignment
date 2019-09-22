@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            com5961demo
+        </title>
+        <link rel="stylesheet" href="style0922.css">
+        <script>  <!--JS和css一样也用花括号和分号来开始结束,internal的JSstyle-->
+            function show_topic() {
+                var x = document.getElementById("demo");
+                x.style.fontSize = "25px";
+                x.style.color = "red";
+            }
+        </script>
+    </head>
+    <body>
+        <h1>How to Create a Webpage</h1>
+        <h2>My name is Joyce.</h2>
+        <h3>I try to build a webpage.</h3>  <!--person is an object.-->
+        <img src="http://www.cuhk.edu.hk/chinese/images/cuhk_logo_2x.png?20150907" border="2">
+        <a href="http://www.cuhk.edu.hk/chinese/" target="_blank">This is a link to CUHK.</a>
+        <br> <!--br break(a fake para)换行但还是同一自然段，hr horizontal ruler一条水平线-->
+        
+        <div id="mybox">
+            <p>It's easy and fun.</p>
+        </div>
+
+        <div id="another_box">
+            <h1 id="special">Another box.</h1>
+        </div>
+        <button onclick="show_topic()">Click this button!</button> <!--当点击button时执行"show_topic"指令,"show_topic"是在前面script定义的-->
+
+    </body> 
+    
+
+</html> 
