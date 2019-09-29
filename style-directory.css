@@ -17,19 +17,20 @@ h5{
 
 ul.firstUL{
     color:rgb(50, 64, 133);
-    margin-top:1.5em;
+    margin-top:1em;
     margin-left:36%;
     text-align:left;
     list-style-position:inside;
 }
 
-li{
-    margin-top:2px;
-    
-}
-
 ul.secondUL{
     position:relative;
     right:5px;
-    margin-top:4px;
+    margin-top:3px;
+    margin-bottom:6px;
+}
+
+
+a{
+    font-size:12px;
 }
