@@ -24,7 +24,8 @@ ul.firstUL{
 }
 
 li{
-    margin-top:2px;
+    margin-top:4px;
+    margin-bottom:4px;
 }
 
 ul.secondUL{
