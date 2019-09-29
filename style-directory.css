@@ -1,0 +1,26 @@
+body{
+    background-color:rgb(241, 235, 226)
+}
+h1.first{
+    text-align:center;
+    color:rgb(230, 65, 57);
+    margin-bottom:10px;
+}
+
+h5{
+    color: rgb(50, 59, 107);
+    text-align: center;
+    margin-top: 5px;
+}
+
+ul.firstUL{
+    color:rgb(50, 59, 107);
+    margin-left:36%;
+    text-align:left;
+    list-style-position:inside;
+}
+
+ul.secondUL{
+    position:relative;
+    right:5px
+}
