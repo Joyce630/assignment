@@ -5,4 +5,4 @@ Assignment#1_Airtable:
 <br>
 Assigement#2_refinedAirtable:
 <br>link<a href="https://airtable.com/invite/l?inviteId=invDWpbsJyInqnYHf&inviteToken=c82644c6d5f775106e4d2b0d425881ebe566673e09824468176a40173ca43dcc">https://airtable.com/invite/l?inviteId=invDWpbsJyInqnYHf&inviteToken=c82644c6d5f775106e4d2b0d425881ebe566673e09824468176a40173ca43dcc</a>
-<br>information: 1) in "Destination Table",introduction and website link were added, and some pictures were changed; 2) I had considered the the target users and their needs. These tables are added: Strategy Plan, User Current Journey Mapping, Pages
+<br>information: 1) in "Destination Table",introduction and website link were added, and some pictures were changed; 2) I had considered the the target users and their needs. Ands added 3 tables to airtable: Strategy Plan, User Current Journey Mapping, Pages
