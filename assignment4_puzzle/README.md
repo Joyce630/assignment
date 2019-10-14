@@ -2,7 +2,7 @@
 
 The code of puzzles are placed respectively in the "breakout" and "mathquiz" folders.
 
-1.Break Out Game
+<h3>1.Break Out Game</h3>
 <br>I followed the steps in this tutorial:
 https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript 
 <br>Css style reference: https://www.w3schools.com/css/css3_animations.asp
@@ -12,6 +12,6 @@ https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_J
 
 
 <br>
-2.Math Quiz
+<h3>2.Math Quiz</h3>
 <br>The tutorial was found on youtube: https://www.youtube.com/watch?v=Q9h2RF-TCPI
 <br><br>Problem: There is a render problem that the font style cannot be rendered in Chrome. Actually the problem occurred in "Breake Out Game" but I fixed it by adding &nbsp;&nbsp;type="text/css"&nbsp;&nbsp; in &nbsp;&nbsp;link&nbsp;&nbsp; element. However, it did not work in "Math Quiz"... 
