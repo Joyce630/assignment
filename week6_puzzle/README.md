@@ -8,7 +8,8 @@ https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_J
 Css style reference: https://www.w3schools.com/css/css3_animations.asp
 Useful color website: https://uigradients.com/#OrangeCoral
 The code may look a little messy because I wrote many notes beside the code to remind myself  >.<
-just ignore the " breakoutMessy.html " file~
+
+Just ignore the " breakoutMessy.html " file~
 
 2.Math Quiz
 I found the tutorial on youtube: https://www.youtube.com/watch?v=Q9h2RF-TCPI
