@@ -34,7 +34,7 @@ var score = 0;
     /*document.addEventListener("keydown", keyDownHandler, false);   //keydown event is fired when any keys are pressed. and when the keydown event is fired, the ketDownHandler() function wil be executed.
     document.addEventListener("keyup", keyUpHandler, false);  */     //addEventListener(event, function, useCapture)其中useCapture選填，是Booleen，指定事件是否 在捕獲或冒泡階段執行：ture--捕獲階段，false--冒泡階段
 
-    document.addEventListener("mousemove",mouseMoveHandler,false);
+    document.addEventListener("mousemove",mouseMoveHandler,false);  //add an event listener, addEventListener("事件名称",函数名,响应时间)false表示该元素在事件的“冒泡阶段”（由内向外传递时）响应时间，事件绑定在冒泡阶段可以最大限度兼容各大浏览器
 
     /*function keyDownHandler(e){                         //e represents event, key holds the information about the key that was pressed.
         if(e.key =="Right" || e.key == "ArrowRight"){     //if left is pressed, the leftPressed variable is set to true; when released, leftPressed is set to false.

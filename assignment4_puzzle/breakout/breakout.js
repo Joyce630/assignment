@@ -1,5 +1,5 @@
-var canvas = document.getElementById("myCanvas");
-var ctx = canvas.getContext("2d");  //create a ctx variable to store the 2D rendering context — the tool that can be used to paint on the Canvas.
+var canvas = document.getElementById("myCanvas");  //在"myCanvas"中，为canvas元素获取对象
+var ctx = canvas.getContext("2d");  //用canvas元素的getcontext方法来渲染上下文并绘制
 var x = canvas.width/2;    
 var y = canvas.height-30;  //position: width的一半，height長度減30
 var dx = 2;
@@ -14,7 +14,7 @@ var brickColumnCount = 5;
 var brickWidth = 75;
 var brickHeight = 20;
 var brickPadding = 10;
-var brickOffsetTop = 30;   // some space from the left and top edge
+var brickOffsetTop = 30;   // some space from the top and left edge
 var brickOffsetLeft = 30;
   
 var bricks =[];                            //use array to create a "brick container"~
@@ -27,9 +27,10 @@ for (var c=0; c < brickColumnCount;c++){    // ++ 自增，將操作數的值加
 
 var score = 0;
 
-
-document.addEventListener("mousemove",mouseMoveHandler,false);
-
+document.addEventListener("mousemove",mouseMoveHandler,false); 
+/*addEventListener("事件名称",函数名,响应时间),
+false表示该元素在事件的“冒泡阶段”（由内向外传递时）响应时间。addEventListener其实对capture或者bubble都无影响，因为都是监听在document之上，不管鼠标多快、不管是不是超出目标元素的范围，mousemove事件都会发生。
+用capture阶段(true)只是比bubble调用处理函数快了，依旧会出现目标元素更不上的情况;而把事件绑定在bubble阶段可以最大限度兼容各大浏览器*/
 
 function collisionDetection() {
 for(var c=0; c<brickColumnCount; c++) {
@@ -42,7 +43,7 @@ for(var c=0; c<brickColumnCount; c++) {
             score++; 
             if (score == brickColumnCount*brickRowCount){     //use score to detect whether all the bricks have been cleared
                 alert("You've cleared all the bricks! Congratulations!");
-                document.location.reload();
+                document.location.reload();  //location.reload() 刷新页面方法,方法只有一个参数,当参数值为 false 或者未传参时,浏览器从缓存中读取页面,而当参数为 true 时,强制浏览器从服务器加载页面资源; location对象包含当前URL的信息
                 clearInterval(interval);  //for Chrome to end the game
             }
         }}
@@ -50,16 +51,16 @@ for(var c=0; c<brickColumnCount; c++) {
 }}
     
 function drawBall(){       //draw a ball
-    ctx.beginPath();
-    ctx.arc(x, y, ballRadius, 0, Math.PI*2);  //start angle and end angle (what angle to start and finish drawing the circle, in radians)
+    ctx.beginPath();      
+    ctx.arc(x, y, ballRadius, 0, Math.PI*2);  //(xy coordinate of center, radius, start angle, end angle (what angle to start and finish drawing the circle, Math.PI是弧度制的180度)）
     ctx.fillStyle = "#0095DD";
     ctx.fill();
     ctx.closePath(); 
 }
 
 function drawPaddle(){
-    ctx.beginPath();
-    ctx.rect(paddleX, canvas.height-paddleHeight,paddleWidth,paddleHeight);     //the first two values specify the coordinate of the top left "x from the left and y from the top"
+    ctx.beginPath();   
+    ctx.rect(paddleX, canvas.height-paddleHeight,paddleWidth,paddleHeight);     //the first two values are the coordinate of the top left "x from the left and y from the top"
     ctx.fillstyle="#0095DD";
     ctx.fill();
     ctx.closePath();
@@ -69,11 +70,11 @@ function drawBricks() {
     for(var c=0; c<brickColumnCount; c++) {
         for(var r=0; r<brickRowCount; r++) {
             if (bricks[c][r].status == 1) {     //draw the brick when its status = 1
-                var brickX = (c*(brickWidth+brickPadding))+brickOffsetLeft;  //the coordinate of every brick
+                var brickX = (c*(brickWidth+brickPadding))+brickOffsetLeft;  
                 var brickY = (r*(brickHeight+brickPadding))+brickOffsetTop;
-                bricks[c][r].x = brickX;
+                bricks[c][r].x = brickX;  //the coordinate of every brick
                 bricks[c][r].y = brickY;
-                ctx.beginPath();
+                ctx.beginPath();  
                 ctx.rect(brickX, brickY, brickWidth, brickHeight);  
                 ctx.fillStyle = "#0095DD";
                 ctx.fill();
