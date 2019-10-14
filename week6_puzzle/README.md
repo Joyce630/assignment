@@ -3,7 +3,7 @@ Assignment#4 Puzzle_Code
 The code of puzzles are placed respectively in the "breakout" and "mathquiz" folders.
 
 1.Break Out Game
-<br>I followed the step in this tutorial and simplyadd some css style
+<br>I followed the step in this tutorial:
 <br>https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript 
 <br>Css style reference: https://www.w3schools.com/css/css3_animations.asp
 <br>Useful color website: https://uigradients.com/#OrangeCoral
