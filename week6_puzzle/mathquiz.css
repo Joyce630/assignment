@@ -1,0 +1,96 @@
+*{ margin:0; padding:0; 
+    font-family: 'Noto Sans TC', sans-serif; }
+
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* set a gradient background*/
+    background:linear-gradient(-60deg,rgb(161, 38, 77), #FD746C,#23A6D5,rgb(37, 48, 145) );  
+    background-position: 0 0;    /*properties used to make the gradient animation*/
+    background-size: 400%,400%;
+    animation: gradient 12s ease infinite;
+}
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+section h1 { 
+    text-transform: capitalize;
+    padding-bottom: 50px;
+    font-size: 2.5em;
+    color:rgb(243, 236, 225);
+    text-shadow: 0px 3px 3px rgb(78, 77, 77);
+    animation: rotate 1s linear infinite;    /* animation: Name DurationTime Direction ExeucuteHowManyTime*/
+    animation-direction: alternate;  /* remember to add alternate*/
+}
+
+@keyframes rotate {       /* use @keyframes to specify the animation*/
+    from{ transform: rotate(2deg); }
+    to { transform: rotate(-2deg); }
+}  
+
+.centerdiv {
+    width: 500px;
+    height: 300px;
+    background-color: rgb(243, 236, 225);
+    display: flex;
+    justify-content: center;   /*justify-content property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally)*/
+    align-items: center;       /* Use the align-items property to align the items vertically.*/
+    flex-direction: column;    /* flex-direction 属性指定了内部元素是如何在 flex 容器中布局的，定义了主轴的方向(正方向或反方向) */
+}
+
+.question {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    height: 80px;      
+}
+
+#v1, #v2{              
+    text-align: center;   
+    padding: 20px 30px;   
+    width: 35px;
+    font-size: 25px;
+    margin-top:20px;
+}
+
+.box1 p {             /* + */
+    font-size: 45px;     
+    margin: 5px 8px 0 13px;  
+}
+
+.playerinput #answer {    
+    margin: 30px ;
+    padding: 5px 0;
+    font-size: 25px;
+    text-align: center;
+    width: 180px;
+}
+
+.submit button {
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-radius:5px;     /* 圆角*/
+    background-color: rgb(236, 86, 40); 
+    box-shadow: 0px 2px 3px rgb(94, 94, 94);
+}
+
+
+
+
+

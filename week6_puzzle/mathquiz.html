@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+    <title>Math Quiz</title>
+    <link rel="stylesheet" href="mathquiz.css">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded|Open+Sans&display=swap" rel="stylesheet" type='text/css'>
+</head>
+    
+<body>
+
+    <section>
+    <h1>Multiply The Numbers !</h1>
+    <div class="centerdiv">  
+        <div class="question">   <!--question box-->
+            <div class="box1"><input type="text" id="v1"></div>        <!--num1-->
+            <div class="box1"><p>×</p></div>
+            <div class="box1"><input type="text" id="v2"></div>        <!--num2--> 
+        </div>
+
+        <div class="playerinput">     <!--player input box-->
+            <input type="text" id="answer"> <!--oninput 只能输入数字  οninput="value=value.replace(/[^\d]/g,'')"-->
+        </div>  
+
+        <div class="submit"><button onclick="Quiz()">Check Answer</button></div>
+        
+        <!--<div class="Congrats">
+            <p id="bingo">Bingo! You are right!</p>
+        </div>-->
+
+    </div>
+    </section>    
+
+
+     <script src="mathquiz.js"> </script>  
+     
+    </body>
+
+              
+</html> 
