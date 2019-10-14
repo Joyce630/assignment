@@ -11,7 +11,7 @@ https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_J
 <br>Just ignore the " breakoutMessy.html " file~
 
 
-<br>
+<br><br>
 <b>2.Math Quiz</b>
 <br>The tutorial was found on youtube: https://www.youtube.com/watch?v=Q9h2RF-TCPI
 <br><br>Problem: There is a render problem that the font style cannot be rendered in Chrome. Actually the problem occurred in "Breake Out Game" but I fixed it by adding &nbsp;&nbsp;type="text/css"&nbsp;&nbsp; in &nbsp;&nbsp;link&nbsp;&nbsp; element. However, it did not work in "Math Quiz"... 
