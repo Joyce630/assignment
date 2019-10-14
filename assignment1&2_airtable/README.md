@@ -1,7 +1,7 @@
 # Assignment#1 and #2
 
 <b>Assignment#1_Airtable:</b>
-<br>link<a href="https://airtable.com/invite/l?inviteId=invgT9SQifLasLevV&inviteToken=04a0f6c45891c401d999faa4ee95286beadac55ff0c158bc41ea18ef3e1d9f6f" target="_blank">https://airtable.com/invite/l?inviteId=invgT9SQifLasLevV&inviteToken=04a0f6c45891c401d999faa4ee95286beadac55ff0c158bc41ea18ef3e1d9f6f</a>
+<br>Airtable link: <a href="https://airtable.com/invite/l?inviteId=invgT9SQifLasLevV&inviteToken=04a0f6c45891c401d999faa4ee95286beadac55ff0c158bc41ea18ef3e1d9f6f" target="_blank">https://airtable.com/invite/l?inviteId=invgT9SQifLasLevV&inviteToken=04a0f6c45891c401d999faa4ee95286beadac55ff0c158bc41ea18ef3e1d9f6f</a>
 <br>The topic of this assignment is "Pop Culture Tourism to Italy". Because I am a fan of an anime series called <i>"Jojo's Bizarred Advanture"</i> telling a story happened in Italy, and I love travel too. Pop culture tourism is the travel to the location featured in the anime series, films and any other forms of pop culture. It combines my interests together. In fact, there is a mobile app called "片場" which is a handbook displaying details of movie and TV series shooting location. I got inspired! 
 <br>(If you are interested in details of "片場"app, here is the link to it: https://apps.apple.com/cn/app/%E7%89%87%E5%9C%BA-%E4%BD%A0%E7%9A%84%E7%94%B5%E5%BD%B1%E6%97%85%E8%A1%8C%E6%8C%87%E5%8D%97/id1145200225 )
 
