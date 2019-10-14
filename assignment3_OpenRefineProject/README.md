@@ -8,7 +8,7 @@ This folder contains project files of OpenRefine.
 <br>https://www.weather-atlas.com/zh/italy/venice-climate
 <br>https://www.weather-atlas.com/zh/italy/capri-climate
 <br>https://www.weather-atlas.com/zh/italy/rome-climate
-<br>https://www.weather-atlas.com/zh/italy/sardinia-climate   (Because the "seawater" data was not founded in this webpage, it was retrieved from the following webpage)
+<br>https://www.weather-atlas.com/zh/italy/sardinia-climate   (Because the "seawater" data was not founded in this webpage, it was retrieved from the following webpage.)
 <br>https://seatemperature.info/porto-cervo-water-temperature.html
 <br>(2)Restaurants:
 <br>https://www.tripadvisor.com.hk/Restaurants-g1783025-Island_of_Capri_Province_of_Naples_Campania.html
