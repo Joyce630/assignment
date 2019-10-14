@@ -1,7 +1,5 @@
 # Assignment#3 OpenRefine
 
-<br> Clean data on airtable:https://airtable.com/invite/l?inviteId=invcCU8m3eYGzKOKc&inviteToken=ee58ea86345ab264991295ddcc9426e8e497c842704f1a99d7eedc88688fc03a
-
 <br>
 <b>Step1: use ParseHub to scrap data, data source webpage: </b>
 <br>(1)Weather:
