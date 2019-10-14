@@ -11,7 +11,7 @@ Step1: Data source webpage:
 <br>https://www.weather-atlas.com/zh/italy/rome-climate
 <br>https://www.weather-atlas.com/zh/italy/sardinia-climate
 <br>https://seatemperature.info/porto-cervo-water-temperature.html
-<br><br>(2)Restaurants:
+<br>(2)Restaurants:
 <br>https://www.tripadvisor.com.hk/Restaurants-g1783025-Island_of_Capri_Province_of_Naples_Campania.html
 <br>https://www.tripadvisor.com.hk/Restaurants-g187791-Rome_Lazio.html
 <br>https://www.tripadvisor.com.hk/Restaurants-g1725258-City_of_Venice_Veneto.html
