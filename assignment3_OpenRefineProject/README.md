@@ -1,7 +1,6 @@
 # Assignment#3 OpenRefine
 This folder contains project files of OpenRefine.
 <br>Process of Assignment#3:
-
 <br><b>Step1: use ParseHub to scrap data. Data source webpage: </b>
 <br>(1)Weather:
 <br>https://www.weather-atlas.com/zh/italy/naples-climate
