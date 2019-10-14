@@ -17,7 +17,6 @@ This folder contains project files of OpenRefine.
 <br>https://www.tripadvisor.com.hk/Restaurants-g194856-Porto_Cervo_Arzachena_Province_of_Olbia_Tempio_Sardinia.html
 <br>https://www.tripadvisor.com.hk/Restaurants-g187785-Naples_Province_of_Naples_Campania.html
 <br>  ParseHub Process: Because webpages structure of different regions were the same, I entered a list of Urls in to crawl in "setting" panel. "Click" function was used when scraping the details of each restaurant.
-
 <br>  Restaurant data of Naples was scraped individually, because I wanted to try to go through the whole process of scraping and cleaing first. Therefore, there are three OpenRefine project files.
 And there was one interesting finding that the prices were shown in HK dollars in the original webpage, but they were automatically converted into US dollar after being scraped.
 
