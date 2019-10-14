@@ -7,7 +7,6 @@ h1.first{
     margin-top: 1em;
     margin-bottom:15px;
 }
-
 h5{
     color: rgb(50, 59, 107);
     text-align: center;
@@ -15,17 +14,22 @@ h5{
     margin-bottom:5px
 }
 
+
+
+
+div.links{
+    position:absolute;
+    margin-left: 40.5%;
+}
+
 ul.alllinks{
     color:rgb(50, 64, 133);
     font-size:20px;
-    margin-top:1em;
-    margin-left:36%;
     text-align:left;
     list-style-position:inside;
 }
 
-ul.Assign3{
-    position:relative;
+ul.Assign3link{
     right:5px;
     margin-top:3px;
     margin-bottom:6px;
@@ -36,7 +40,7 @@ a{
     font-size:16px;
 }
 
-li#assign4{
+div#new{
     color:rgb(219, 63, 55);
 }
 
