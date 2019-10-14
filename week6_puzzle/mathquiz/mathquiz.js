@@ -14,7 +14,7 @@
         if(usera == answ) {
              alert('You are right! Well done!');
         } else {
-             alert("The corret answer is" + answ + ". Try Again ~ "); 
+             alert("The corret answer is "+ answ + ". Try Again ~ "); 
         }
 
         document.getElementById('answer').value = "";
