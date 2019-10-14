@@ -1,4 +1,4 @@
-Assignment#4 Puzzle_Code
+<h3>Assignment#4 Puzzle_Code</h3>
 
 The code of puzzles are placed respectively in the "breakout" and "mathquiz" folders.
 
@@ -14,3 +14,4 @@ The code of puzzles are placed respectively in the "breakout" and "mathquiz" fol
 
 2.Math Quiz
 <br>I found the tutorial on youtube: https://www.youtube.com/watch?v=Q9h2RF-TCPI
+<br>There is a render problem that the font style cannot be rendered in Chrome. Actually the problem occurred in "Breake Out Game" but I fixed it by adding    type="text/css"   in <link> element. However, it did not work in "Math Quiz"... 
