@@ -124,5 +124,6 @@ function draw(){    //make the ball move
     }
    
     var interval = setInterval(draw, 10);
-    //The draw() function will be executed within setInterval every 10 miliseconds. The draw() function will be called every 10 milliseconds forever, or until we stop it.  setTimeout:只運行一次
+    //The draw() function will be executed within setInterval every 10 miliseconds. The draw() function will be called every 10 milliseconds forever, or until we stop it.  
+    //setTimeout 也是常用的“计时器”但运行一次后就会停止，要一直调用刷新状态的话还是setInterval更合适
  
