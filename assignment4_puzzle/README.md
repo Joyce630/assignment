@@ -3,15 +3,15 @@
 The code of puzzles are placed respectively in the "breakout" and "mathquiz" folders.
 
 <b>1.Break Out Game</b>
-<br>I followed the steps in this tutorial:
-https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript 
-<br>Css style reference: https://www.w3schools.com/css/css3_animations.asp
+<br>Reference link:
+<br>https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript 
+<br>Css style: https://www.w3schools.com/css/css3_animations.asp
 <br>Useful color website: https://uigradients.com/#OrangeCoral
-<br><br>The code may look a little messy because I wrote many notes beside the code to remind myself  >.<
-<br>Just ignore the " breakoutMessy.html " file~
+<br><br>I basically followed the steps in the first tutorial and searched for the meaning and usage of the code. Many notes were written besides the code, so it may look a little messy...
+
 
 
 <br><br>
 <b>2.Math Quiz</b>
 <br>The tutorial was found on youtube: https://www.youtube.com/watch?v=Q9h2RF-TCPI
-<br><br>Problem: There is a render problem that the font style cannot be rendered in Chrome. Actually the problem occurred in "Breake Out Game" but I fixed it by adding &nbsp;&nbsp;type="text/css"&nbsp;&nbsp; in &nbsp;&nbsp;link&nbsp;&nbsp; element. However, it did not work in "Math Quiz"... 
+<br><br>Problem: There is a render problem that the font style cannot be rendered in Chrome. Actually the problem also occurred in "Breake Out Game", but I fixed it by adding &nbsp;&nbsp;type="text/css"&nbsp;&nbsp; in &nbsp;&nbsp;link&nbsp;&nbsp; element. However, it did not work in "Math Quiz"...
