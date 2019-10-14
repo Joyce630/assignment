@@ -18,12 +18,14 @@
 <br>https://www.tripadvisor.com.hk/Restaurants-g194856-Porto_Cervo_Arzachena_Province_of_Olbia_Tempio_Sardinia.html
 <br>https://www.tripadvisor.com.hk/Restaurants-g187785-Naples_Province_of_Naples_Campania.html
 <br>And there was one interesting finding that the prices were shown in HK dollars in the original webpage, but they were automatically converted into US dollar after being scraped.
+<br>ParseHub Process: Because webpages structure of different regions were the same, I entered a list of Urls in to crawl in "setting" panel. "Click" function was used when scraping the details of each restaurant.
+
 
 <br><br>
 <b>Step2: </b>
 <br>The data in original webpages was orderly so the cleaning work was not complicated. 
 <br>When cleaning the weather raw data, some repeating units (e.g.摄氏度, 天, 毫米) were deleted. Some data was misplaced (for example the "rainfall" data was put in the "rainydays" column) because of the differences in original webpages. So I had to placed them in correct columns. 
-<br>The main task to clean restaurant raw data was also dealing with the misplaced data. Plus, in order to show which city the restaurant was located, new column was created based on the restaurant url. 
+<br>The main task to clean restaurant raw data was also dealing with the misplaced data. Plus, in order to show the location of restaurant, new column was created based on the restaurant url. 
   
 <br><br>
 <b>Step3: </b>
