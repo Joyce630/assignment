@@ -1,4 +1,4 @@
-# Assignment#4 Puzzle_Code
+# Assignment#4 Puzzle_CodeFiles
 
 The code of puzzles are placed respectively in the "breakout" and "mathquiz" folders.
 
@@ -7,7 +7,7 @@ The code of puzzles are placed respectively in the "breakout" and "mathquiz" fol
 <br>https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript 
 <br>Css style: https://www.w3schools.com/css/css3_animations.asp
 <br>Useful color website: https://uigradients.com/#OrangeCoral
-<br><br>I basically followed the steps in the first tutorial and searched for the meaning and usage of the code. Many notes were written besides the code, so it may look a little messy...
+<br><br>I basically followed the steps in the first tutorial and searched for the meaning and usage of the code. (understanding the codes was a little overwhemling) Many notes were written besides the code, so it may look a little messy...
 
 
 
