@@ -25,7 +25,7 @@ h5{
     margin-bottom: 2.5em;
     margin-left: 4.6em;
     color:grey;
-    font-family: cursive;
+    
 }
 
 /* Style the tab */
@@ -76,4 +76,15 @@ h5{
     margin-bottom: 3em;
 }
 
+p#checkAir{
+    text-align: center;
+    margin-left: 4.6em;
+    color:grey;
+    font-size: 20px;
+   
 
+}
+
+div#airtable{
+    margin-left:3em;
+}
