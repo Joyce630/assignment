@@ -18,8 +18,23 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
       }
-
+     
+      $(document).ready(function() {
+        $("button#show_air").on('click',function(){
+                 $("div#airtable").show();
+                 //$("h3").css("color","blue");
+                 //$("h3").html("You clicked me.");
+        });
+        $("button#hide_air").on('click',function(){    //'click'是作用于"button#hide_air"的function
+                 $("div#airtable").hide();
+        });
+      });
+      
 
 // Get the element with id="defaultOpen" and click on it (show the table when loading the page)
 document.getElementById("defaultOpen").click();
+
+
+
+
 
