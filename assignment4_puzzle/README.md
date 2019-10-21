@@ -1,6 +1,8 @@
 # Assignment#4 Puzzle_CodeFiles
 
-The code of puzzles are placed respectively in the "breakout" and "mathquiz" folders.
+<br>Student name: Joyce LI (Li Ziqiao)
+<br>Student id: 1155128280
+<br>The code of puzzles are placed respectively in the "breakout" and "mathquiz" folders.
 
 <b>1.Break Out Game</b>
 <li>Game webpage: https://joyce630.github.io/joyceassignment.github.io/assignment4_puzzle/breakout/breakout.html
