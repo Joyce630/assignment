@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(255, 253, 246);
+}
+
+section#main{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16em;
+    margin-right: 14em;
+    margin-top: 4em;
+    margin-bottom: 5em;
+}
+
+section h1#destinatoins{
+    text-align: center;
+    font-size:3em;
+    margin-left: 2em;
+    color:rgb(255, 198, 11);
+    text-shadow:1px 1px 2px rgb(140, 79, 28);
+}
+
+h5{
+    text-align: center;
+    margin-bottom: 2.5em;
+    margin-left: 4.6em;
+    color:grey;
+    font-family: cursive;
+}
+
+/* Style the tab */
+.tab {
+    float:left;
+    overflow: hidden;
+    border-right: none;
+    background-color: rgb(254, 237, 219);
+    width:15%;
+    height:100%;
+  }
+  
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    display:block;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;   /* cursor?*/
+    padding: 12px 13px;
+    text-align:left;
+    transition: 0.3s;
+    font-size:13px;
+    color: black;
+    width: 100%;
+ 
+}
+  
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgb(252, 216, 177);
+  }
+  
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: rgb(252, 126, 42);
+}
+  
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 0px 0px 0px 10px;
+    float: left;
+    width:80%;
+    height:80%;
+
+    margin-bottom: 3em;
+}
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>  
+ <html>
+<head>
+    <title>Restaurant Airtable Data</title>
+
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />  -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
+    <!--<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/bs-3.3.5/jq-2.1.4,dt-1.10.8/datatables.min.css"/>  -->
+    <script type="text/javascript" src="https://cdn.datatables.net/r/bs-3.3.5/jqc-1.11.3,dt-1.10.8/datatables.min.js"></script>  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Destination.css">
+    
+</head>
+
+<body>
+    <!--<nav class="verticalNav">
+        <a class="nav-link" href="#">Naples</a>
+        <a class="nav-link" href="#">Capri</a>
+        <a class="nav-link" href="#">Venice</a>
+        <a class="nav-link" href="#">Sardinia</a>
+        <a class="nav-link" href="#">Rome</a>
+    </nav> -->
+        
+
+<section id="main">
+        <h1 id="destinatoins">Destinations</h1>
+
+        <h5>To check detail data in Airtable, please click<a href="https://airtable.com/invite/l?inviteId=invkhmdhzxc2UIEea&inviteToken=2c5afee529864620745aaa1d72493a535ac8f3542cd73cca41cee4166824d1ff" target="_blank"> here.</a> </h5>
+
+<div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'All')" id="defaultOpen">Province | 省份</button>  
+        <button class="tablinks" onclick="openCity(event, 'Naples')" >Naples | 那不勒斯</button>  
+        <button class="tablinks" onclick="openCity(event, 'Capri')">Capri | 拉普里島</button>
+        <button class="tablinks" onclick="openCity(event, 'Venice')">Venice | 威尼斯</button>
+        <button class="tablinks" onclick="openCity(event, 'Porto Cervo')">Porto Cervo | 切爾沃港</button>
+        <button class="tablinks" onclick="openCity(event, 'Rome')">Rome |羅馬</button>
+</div>
+
+      <!-- Tab content -->
+    <div id="All" class="tabcontent">
+            <iframe title="Numbers of Destinations (each city) " aria-label="Italy provinces (2018) Symbol map" id="datawrapper-chart-fGnBg" src="//datawrapper.dwcdn.net/fGnBg/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none; background-color: white;" height="611"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>    
+    </div>
+    <div id="Naples" class="tabcontent">
+            <iframe title="Destinations in Naples" aria-label="Locator maps" id="datawrapper-chart-JNUfW" src="//datawrapper.dwcdn.net/JNUfW/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;background-color: white;" height="506"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>    
+    </div>
+    <div id="Capri" class="tabcontent">
+            <iframe title="Destinations in Capri" aria-label="Locator maps" id="datawrapper-chart-GrLZ9" src="//datawrapper.dwcdn.net/GrLZ9/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none; background-color: white;" height="487"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>    
+        </div> 
+    <div id="Venice" class="tabcontent">
+            <iframe title="Destinations in Venice" aria-label="Locator maps" id="datawrapper-chart-1GA05" src="//datawrapper.dwcdn.net/1GA05/6/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none; background-color: white;" height="487"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>    
+        </div>
+    <div id="Porto Cervo" class="tabcontent">
+            <iframe title="Destinations in Porto Cervo" aria-label="Locator maps" id="datawrapper-chart-yWLch" src="//datawrapper.dwcdn.net/yWLch/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none; background-color: white;" height="487"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>   
+    </div>
+    <div id="Rome" class="tabcontent">
+            <iframe title="Destinations in Rome" aria-label="Locator maps" id="datawrapper-chart-Id94b" src="//datawrapper.dwcdn.net/Id94b/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none; background-color: white;" height="487"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}})}();</script>    
+    </div>
+
+
+</section>
+
+
+
+<script src="Destination.js"></script>
+
+</body>
+</html>
