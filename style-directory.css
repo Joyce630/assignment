@@ -4,7 +4,7 @@ body{
 h1.first{
     text-align:center;
     color:rgb(230, 65, 57);
-    margin-top: 1em;
+    margin-top: 1.2em;
     margin-bottom:15px;
 }
 h5{
@@ -35,7 +35,7 @@ div#newlinks{
 
 b#newAssigntext{
     /*color:rgb(219, 63, 55);*/
-    color:rgb(233, 81, 21);
+    color:rgb(230, 65, 57);
     
 }
 
