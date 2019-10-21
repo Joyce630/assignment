@@ -3,7 +3,7 @@
 The code of puzzles are placed respectively in the "breakout" and "mathquiz" folders.
 
 <b>1.Break Out Game</b>
-<br>Game Webpage https://joyce630.github.io/joyceassignment.github.io/assignment4_puzzle/breakout/breakout.html
+<br>Game webpage: https://joyce630.github.io/joyceassignment.github.io/assignment4_puzzle/breakout/breakout.html
 <br>Reference link:
 <br>https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript 
 <br>Css style: https://www.w3schools.com/css/css3_animations.asp
@@ -14,5 +14,6 @@ The code of puzzles are placed respectively in the "breakout" and "mathquiz" fol
 
 <br><br>
 <b>2.Math Quiz</b>
+<br>Game webpage: https://joyce630.github.io/joyceassignment.github.io/assignment4_puzzle/mathquiz/mathquiz.html
 <br>The tutorial was found on youtube: https://www.youtube.com/watch?v=Q9h2RF-TCPI
 <br><br>Problem: There is a render problem that the font style cannot be rendered in Chrome. Actually the problem also occurred in "Breake Out Game", but I fixed it by adding &nbsp;&nbsp;type="text/css"&nbsp;&nbsp; in &nbsp;&nbsp;link&nbsp;&nbsp; element. However, it did not work in "Math Quiz"...
