@@ -29,7 +29,6 @@ div#newlinks{
     font-size:20px;
     text-align:center;
     list-style-position:inside;
-    
     margin-top: 1em;
 }
 
@@ -43,15 +42,14 @@ div#assign5link{
    text-align:center;
 }
 
+
 ul#previouslinks{
     color:rgb(50, 64, 133);
     font-size:20px;
     text-align:left;
     list-style-position:inside;
-    
     margin-left:8%;
 }
-
 
 
 ul.Assign3link{
