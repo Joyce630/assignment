@@ -7,8 +7,7 @@ The code of puzzles are placed respectively in the "breakout" and "mathquiz" fol
 <li>Reference link:https://developer.mozilla.org/en-US/docs/Games/Tutorials/2D_Breakout_game_pure_JavaScript 
 <li>Css style: https://www.w3schools.com/css/css3_animations.asp
 <li>Useful color website: https://uigradients.com/#OrangeCoral
-
-<br>I basically followed the steps in the first tutorial and searched for the meaning and usage of the code. (understanding the codes was a little overwhemling) Many notes were written besides the code, so it may look a little messy...
+  I basically followed the steps in the first tutorial and searched for the meaning and usage of the code. (understanding the codes was a little overwhemling) Many notes were written besides the code, so it may look a little messy...
 
 
 
@@ -16,5 +15,4 @@ The code of puzzles are placed respectively in the "breakout" and "mathquiz" fol
 <b>2.Math Quiz</b>
 <li>Game webpage: https://joyce630.github.io/joyceassignment.github.io/assignment4_puzzle/mathquiz/mathquiz.html
 <li>The tutorial was found on youtube: https://www.youtube.com/watch?v=Q9h2RF-TCPI
-
-<br>Problem: There is a render problem that the font style cannot be rendered in Chrome. Actually the problem also occurred in "Breake Out Game", but I fixed it by adding &nbsp;&nbsp;type="text/css"&nbsp;&nbsp; in &nbsp;&nbsp;link&nbsp;&nbsp; element. However, it did not work in "Math Quiz"...
+  Problem: There is a render problem that the font style cannot be rendered in Chrome. Actually the problem also occurred in "Breake Out Game", but I fixed it by adding &nbsp;&nbsp;type="text/css"&nbsp;&nbsp; in &nbsp;&nbsp;link&nbsp;&nbsp; element. However, it did not work in "Math Quiz"...
