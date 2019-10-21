@@ -1,7 +1,6 @@
 # Assignment#4 Puzzle_CodeFiles
 
-<br><h6>Student name: Joyce LI (Li Ziqiao)</h6>
-<br><h6>Student id: 1155128280</h6>
+<br><h6>Student name: Joyce LI (Li Ziqiao)   Student id: 1155128280</h6>
 <br>The code of puzzles are placed respectively in the "breakout" and "mathquiz" folders.
 
 <b>1.Break Out Game</b>
