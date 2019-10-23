@@ -1,0 +1,94 @@
+body{
+    background-color:#343c55;
+}
+
+h1{
+    color:rgb(247, 119, 0);
+}
+
+/*當前頁面按鈕顏色*/
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    color: #ffffff !important;
+    border: 1px solid #ffb598;
+    background-color: white;
+    background: rgb(255, 170, 50);
+    /* Chrome,Safari4+ */
+    background: rgb(255, 170, 50);
+    /* Chrome10+,Safari5.1+ */
+    background:rgb(255, 170, 50);
+    /* FF3.6+ */
+    background: rgb(255, 170, 50);
+    /* IE10+ */
+    background: rgb(255, 170, 50);
+    /* Opera 11.10+ */
+    background:rgb(255, 170, 50);
+    /* W3C */ }
+
+/*hover時頁面按鈕顏色*/
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    color: #ffffff !important;
+    border: 1px solid #ffac74;
+    background-color: #ffd28f;
+    background: #ffd28f;
+    /* Chrome,Safari4+ */
+    background: #ffd28f;
+    /* Chrome10+,Safari5.1+ */
+    background: #ffd28f;
+    /* FF3.6+ */
+    background: #ffd28f;
+    /* IE10+ */
+    background: #ffd28f;
+    /* Opera 11.10+ */
+    background: #ffd28f;
+    /* W3C */ }
+
+    /*四個角落上的提示文字*/
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+    color:#ffffff !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover, .dataTables_wrapper .dataTables_paginate .paginate_button.disabled:active{
+    color:#ffffff !important;
+}
+
+#jsontable_paginate{
+    color:white;
+}
+
+#jsontable_info{
+    color:white;
+}
+
+#jsontable_length{
+    color:white;
+}
+
+#jsontable_filter{
+    color:white;
+}
+
+a.paginate_button previous disabled{
+    color:white;
+}
+
+select{
+    color:black;
+}
+
+
+
+/*tablehead和cell的border*/
+th{
+    border-top: 1px solid #000000;
+    color:rgb(5, 5, 5);
+    background-color: cornsilk;
+}
+
+tbody{
+    border:1px solid #000000;
+}
+
+
+
+
+
