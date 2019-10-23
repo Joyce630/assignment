@@ -3,5 +3,5 @@
 
 <li>Introduction:
 <li>Some problems came across when doing this assignment:
-<ol> I failed to add the cell 
-<ol>
+<ol><li> I failed to add the cell 
+<li>
