@@ -8,7 +8,7 @@ $(document).ready(function(){
         $.getJSON(airtable_read_endpoint, function(result){
             $.each(result.records, function(key,value){
                 items = [];
-                items.push(value.fields.Destination);   //no space when naming the fields. delete the items(column) here that you dont want to show
+                items.push(value.fields.Destination);   //no space when naming the fields. 
                 items.push(value.fields.City);
                 items.push(value.fields.BriefDescription);
                 items.push(value.fields.OpeningHours);
@@ -22,7 +22,7 @@ $(document).ready(function(){
 
              $('#jsontable').DataTable({
                  data: dataSet,
-                 retrieve: true,
+                 retrieve: true,    //retrieve: this parameter will cause DataTables to simply return the object that has already been set up - it will not take account of any changes you might have made to the initialisation初始化 object passed to DataTables
                  columns: [
                     {title:"Destination", defaultContent:""},
                     {title:"City", defaultContent:""},
@@ -35,7 +35,7 @@ $(document).ready(function(){
              }); //end .dataTable
              
              
-            $("#jsontable").css("border-top","2px","black");
+            //$("#jsontable").css("border-top","2px","black");
            
 
 
