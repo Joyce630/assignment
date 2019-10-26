@@ -17,21 +17,26 @@
     
 <body>
     <div class="container" style="margin-top:3em">
-    <div class="row" style="margin:0px 3em 100px 3em">
+    <div class="row" style="margin:0px 2.5em 0px 2.5em">
     <div class="col-xs-12 col-sm-12 col-md-12">
-
+        <!--embed datatable-->
         <h1 style="text-align: center">Airtable GetJSON</h1>
         <div class="card">
             <p id="first" >Use JQuery GetJson method to fetch Airtable API data</p>
             <div class="well well-sm">   <!-- "well" is a bootstrap div style-->
-                <p class="text-justify text-muted" style="margin-top:9px">Airtable is a powerful spreadsheet-like database with many useful features for data modeling and basic analytics. When used with other data visualization libraries, it can be a great tool for rapid prototyping.</p>
+                <p class="text-justify text-muted" style="margin-top:9px">Airtable is a powerful spreadsheet-like database with many useful features for data modeling and basic analytics. When used with other data visualization libraries, it can be a great tool for rapid prototyping. <br>Click on "show me" to see datatable.</p>
             </div>
         </div>
         <button type="button" class="btn btn-warning" id="get_data">Show Table</button><br><br>
         <div class="table-responsive">
             <table id="jsontable" width="100%" class="demo display dataTable" role="grid" ></table>
         </div><!-- table responsive -->
-
+        
+        <!--embed airtable-->
+        <div class="row" style="margin-top: 3em; margin-bottom: 3em;">   
+            <h1 style="text-align: center">Airtable Embedded Grid View</h1>
+            <iframe class="airtable-embed" src="https://airtable.com/embed/shrG1C8jYOjHvnlzX?backgroundColor=orange&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>        
+        </div>  
     </div> <!--end col -->
     </div> <!--end row -->
     </div> <!-- end container -->

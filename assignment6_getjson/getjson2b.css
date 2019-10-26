@@ -6,6 +6,7 @@ h1{
     color:rgb(247, 119, 0);
 }
 
+
 p#first{
     color:rgb(238, 238, 238);
     text-align: center;
@@ -77,16 +78,14 @@ select{
 
 
 
-/*tablehead和cell的border*/
+/*tablehead*/
 th{
     border-top: 1px solid #000000;
     color:rgb(5, 5, 5);
     background-color: rgb(255, 241, 220);
 }
 
-tbody{
-    border:1px solid #000000;
-}
+
 
 
 

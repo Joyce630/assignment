@@ -14,23 +14,21 @@ $(document).ready(function(){
                 items.push(value.fields.OpeningHours);
                 items.push(value.fields.Ticket);
                 items.push(value.fields.SceneinJOJO);
-                items.push(value.fields.DestinationLink);
                     dataSet.push(items);
                     console.log(items);
             }); // end .each
                 console.log(dataSet);
 
-             $('#jsontable').DataTable({
+             $('#jsontable').DataTable({   //cant show pictures
                  data: dataSet,
                  retrieve: true,    //retrieve: this parameter will cause DataTables to simply return the object that has already been set up - it will not take account of any changes you might have made to the initialisation初始化 object passed to DataTables
-                 columns: [
+                 columns: [   
                     {title:"Destination", defaultContent:""},
                     {title:"City", defaultContent:""},
                     {title:"BriefDescription", defaultContent:""},
                     {title:"OpeningHours", defaultContent:""},
                     {title:"Ticket", defaultContent:""},
                     {title:"SceneinJOJO", defaultContent:""},
-                    {title:"DestinationLink", defaultContent:""},
                  ]
              }); //end .dataTable
              
