@@ -48,6 +48,17 @@ p#first{
     background: #ffd28f;
     /* W3C */ }
 
+/* cell border （无效的哦…… ）*/
+table.dataTable.cell-border tbody th, table.dataTable.cell-border tbody td {
+    border-top: 2px solid #5c5a5a;
+    border-right: 2px solid #5c5a5a; }
+  table.dataTable.cell-border tbody tr th:first-child,
+  table.dataTable.cell-border tbody tr td:first-child {
+    border-left: 2px solid #5c5a5a; }
+  table.dataTable.cell-border tbody tr:first-child th,
+  table.dataTable.cell-border tbody tr:first-child td {
+    border-top: none; }
+
 /*四個角落上的提示文字*/
     /*換頁*/
 .dataTables_wrapper .dataTables_paginate .paginate_button{
