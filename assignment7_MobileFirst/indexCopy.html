@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Grayscale - Start Bootstrap Theme</title>
+
+  <!-- Bootstrap core CSS -->
+  <!--<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <!--leaflet CSS and js-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+  integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+  crossorigin=""></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
+  <script src="http://d3js.org/topojson.v1.min.js"></script>
+  
+
+  <!-- Custom fonts for this template -->
+  <!-- contact card and social media icons: 
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">-->
+  <!-- header and Navbar font -->
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Anton|Righteous&display=swap" rel="stylesheet">
+  <!-- gallery, map and other sections font -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.min.css" rel="stylesheet">
+  <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-grayscale/5.0.9/css/grayscale.min.css" rel="stylesheet">-->
+  <!--<link href="indexCopy.css" rel="stylesheet">-->
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg  fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a> <!-- change to Start Travel-->
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>  <!-- change to #gallery-->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#mymap">Map</a>  <!-- change to #mapCity, Map-->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#signup">Chart</a>  <!-- change to #chart-->
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto mb-3 text-uppercase">Travel to Italy</h1>
+        <h2 class="mx-auto mt-4 mb-5">Pop Culture Tourism Of The Anime <br>JOJO's Bizarre Advanture </h2>
+         <a href="#gallery" class="btn btn-primary js-scroll-trigger ">Show Me!</a> 
+        <!--<div class="startWrapper">
+          <a href="#gallery" class="startbtn js-scroll-trigger" style="background-image: url(getStartBtn.svg); background-repeat: no-repeat;padding:px;max-width: 100%;background-size: cover;color:honeydew">Get Started</a>
+        </div> -->
+      </div>
+    </div>
+  </header>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <h2 class="">Destination Gallery</h2>
+          <p class="text-white" style="opacity: 0.9;"> This website collects destinations that appeared in JOJO's Bizarre Advanture Part5. If you are planning a pop culture travel, look around here to acquire information of the destinations and design your journey! Or if you may just be interested in the scenes overlapping the anime JOJO and the real life, . </p>
+          <iframe class="airtable-embed" src="https://airtable.com/embed/shrWhGLNQp47R7CEU?backgroundColor=orange&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>        
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Maps Section -->
+  <section id="mymap" class="mymap-section bg-light">
+    <div class="container">
+      <!-- Naples Map Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">  <!-- no-gutters: no spacing between col-->
+        <div class="col-xl-9 col-lg-7 " >  <!--col-xl-8 col-lg-7--> <!-- numbers of the columns can add up to 12(max).-->
+           <!-- svg: scalable vector graphics; to make the map adjust its size automatically-->
+          <div id="Mainmap" class="map map-home leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" style="width:100%; height: 500px; position: relative; outline: none;"></div> <!--class="map map-home leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom"-->
+        </div>
+        <div class="col-xl-3 col-lg-5">
+          <div class="featured-text text-center text-lg-left"> <!-- text-lg-left: sets the text alignment to left when the viewport size >992px(lg)-->
+            <h4>Italy</h4>
+            <p class="text-black-50 mb-0">We collected 28 destinations in four provinces (five cities). You can simply click on the orange-bordered area to zoom into specific province, and click on the blue markers to see what place it is.</p> <!-- "50" is for 50%opacity-->
+          </div>
+        </div>
+      </div>
+
+      <!-- Naples Map Row -->
+      <!--<div class="row align-items-center no-gutters mb-4 mb-lg-5">
+          <div class="col-xl-9 col-lg-7">
+            <div id="Naplesmap" class="map map-home leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom" style="width:100%; height: 500px; position: relative; outline: none;"></div>
+          </div>
+          <div class="col-xl-3 col-lg-5">
+            <div class="featured-text text-center text-lg-left">
+              <h4>Naples</h4>
+              <p class="text-black-50 mb-0">.......<br>......</p>
+            </div>
+          </div>
+        </div>-->
+
+  
+      
+
+    </div>
+  </section>
+
+  <!-- Chart Section -->
+  <section id="signup" class="signup-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+
+          <form class="form-inline d-flex">
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section bg-black">
+    <div class="container">
+      <!-- contact card-->
+      <div class="row">
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Address</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a>hello@yourdomain.com</a>  <!-- href="#" -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Phone</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">+1 (555) 902-8832</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- social media icon -->  <!--< a href="#" class="mx-2"></a> -->
+      <div class="social d-flex justify-content-center">
+        <a  class="mx-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a  class="mx-2">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a  class="mx-2">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      Copyright &copy; Your Website 2019
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- downloaded Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  
+
+  <!-- Plugin JavaScript -->
+  <!--<script src="vendor/jquery-easing/jquery.easing.min.js"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+
+  <!-- Custom scripts for this template -->
+     <!--<script src="js/grayscale.min.js"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-grayscale/5.0.9/js/grayscale.min.js" integrity="sha256-spj4omdr8o22qWojzXHE4yOp3yAxKZWnJGOTypzvvjw=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="italyTopo2.js"></script>  <!-- Italy geojson data -->
+  <script src="leafTest5.js"></script> <!-- 这个要放在Topo file的下面哦...-->
+</body>
+
+</html>
