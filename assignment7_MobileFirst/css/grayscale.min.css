@@ -48,17 +48,23 @@
  
  
  /* gallery section */
+ @media(min-width:992px){
  .gallery-section{padding:3rem 1.5rem 5rem 1.5rem;background-color:#ff8c09!important} 
- .gallery-section h2{color:white; margin-top:0.5em;margin-bottom:1em}
+ .gallery-section h2{color:white; margin-top:0.5em;margin-bottom:1em}}
 
+ .gallery-section{padding:1rem 1.5rem 3rem 1.5rem;background-color:#ff8c09!important} 
+ .gallery-section h2{color:white; margin-top:15px;margin-bottom:0.5em}
 
- 
- /* mymap section-- map */
- .mymap-section{padding:5rem 1.5rem 5rem 1.5rem;}
- .mymap-section .featured-text{padding:2rem}
-/* when size> 992px, mymap*/
+ /* when size> 992px, mymap*/
  @media (min-width:992px){.mymap-section .featured-text{padding:0 0 0 2rem;border-left:.5rem solid #ff8c09}}
  .mymap-section .mymap-text{padding:3rem;font-size:90%}
+ 
+ /* mymap section-- map */
+ .mymap-section{padding:3rem 1.5rem 1rem 1.5rem;}
+ .mymap-section .featured-text{padding:1rem}
+ .featured-text .text-center .text-lg-left{padding-bottom:0rem;}
+
+
 
  /*@media (min-width:992px){.mymap-section .mymap-text{padding:5rem}
  .mymap-section .mymap-text hr{border-color:#a16464;border-width:.25rem;width:30%}}*/
