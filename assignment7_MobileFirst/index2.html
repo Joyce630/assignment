@@ -11,12 +11,13 @@
   <title>Pop Culture Tourism of JOJO's Bizarre Advanture</title>
 
   <!-- Bootstrap core CSS -->
-  <!--<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+    <!--<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- chart c3 css-->
-  <link rel="stylesheet" href="/path/to/c3.css >
-
-  <!--leaflet CSS and js-->
+  <!-- Plugin JavaScript -->
+    <!--<script src="vendor/jquery-easing/jquery.easing.min.js"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+  
+  <!-- leaflet CSS and js -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
   crossorigin=""/>
@@ -26,9 +27,13 @@
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://unpkg.com/topojson@3"></script>
   <script src="http://d3js.org/topojson.v1.min.js"></script>
-  
+  <!-- chart d3 c3-->
+    <!--<link rel="stylesheet" href="/path/to/c3.css">-->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/c3/0.1.29/c3.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/c3/0.1.29/c3.js"></script>
 
-  <!-- Custom fonts for this template -->
+  <!-- Custom fonts  -->
   <!-- contact card and social media icons: 
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">-->
   <!-- header and Navbar font -->
@@ -36,11 +41,10 @@
   <link href="https://fonts.googleapis.com/css?family=Anton|Righteous&display=swap" rel="stylesheet">
   <!-- gallery, map and other sections font -->
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
+  <!-- Custom styles  -->
   <link href="css/grayscale.min.css" rel="stylesheet">
-  <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-grayscale/5.0.9/css/grayscale.min.css" rel="stylesheet">-->
-  <!--<link href="indexCopy.css" rel="stylesheet">-->
+    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-grayscale/5.0.9/css/grayscale.min.css" rel="stylesheet">-->
+    <!--<link href="indexCopy.css" rel="stylesheet">-->
 </head>
 
 <body id="page-top">
@@ -138,40 +142,12 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto text-center">
-
-          <!-- Bar Chart card and canvas-->
-          <div class="card shadow mb-4">
-              <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">Bar Chart</h6>
-              </div>
-              <div class="card-body">
-                <div class="chart-bar">
-                  <canvas id="myBarChart"></canvas>
-
-
-                </div>
-                <hr>
-                intro.
-              </div>
+           <!-- Bar Chart card and canvas-->
+           <div class="card shadow mb-4">
+            <div class="card-body">
+              <div id="chart"> </div>
             </div>
           </div>
-          
-          <div class="row">
-            <div class="col-lg-8">
-              <div class="card mb-3">
-                <div class="card-header">
-                  Bar Chart Example
-                </div>
-  
-                <div class="card-body">
-                  <canvas id="myBarChart" width="100%" height="50"></canvas>
-                </div>
-  
-                <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
-              </div>
-            </div>    
-          </div>
-
       </div>
     </div>
   </section>
@@ -199,10 +175,6 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   
-
-  <!-- Plugin JavaScript -->
-  <!--<script src="vendor/jquery-easing/jquery.easing.min.js"></script>-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
 
   <!-- Custom scripts for this template -->
      <!--<script src="js/grayscale.min.js"></script>-->
