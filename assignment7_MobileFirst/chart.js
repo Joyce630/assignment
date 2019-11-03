@@ -57,20 +57,29 @@ $(document).ready(function(){
           console.log(dataSet);
 
 
-    var aaachart = c3.generate({
-        data: {
-            columns: dataSet,
-            type : 'bar',
-            //types:dataSet.Rainfall:'line',
-            order: 'asc',
+    var chart = c3.generate({
+      bindto:'#aaachart',
+      data: {
+        columns:dataSet,
+        type : 'bar',
+        //types:{dataSet:'line'}
+        //types:dataSet.Rainfall:'line',
         },
-        
+        /*axis: {
+          x: {
+            label: {text: 'month',position: 'outer-center'},
+            type: 'category',
+            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May','June','July','Aug','Sep','Nov','Dec'],
+            tick: {centered: true}
+          },
+          y: {
+            label: {text: 'Temperature (˚C)',position: 'outer-middle'},
+            max: 30,
+            min: 0,
+            padding: {top: 0,bottom: 0}
+          }
+        },*/
+      
     });
-
-
   }); // end .getJSON
-
-
-  
-
-});
+});//end document .ready
