@@ -65,6 +65,9 @@ $(document).ready(function(){
         //types:{dataSet:'line'}
         //types:dataSet.Rainfall:'line',
         },
+        tooltip: {
+          grouped: false // Default true
+      },
         axis: {
           x: {
             label: {text: 'Month',position: 'outer-center'},
