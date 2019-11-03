@@ -68,7 +68,7 @@
  
 
  /* mymap section */
- .mymap-section{padding:4rem 1.8rem 1rem 1.8rem}
+ .mymap-section{padding:3rem 1.8rem 1rem 1.8rem}
  .mymap-section .featured-text{padding:1rem}
  .featured-text .text-center .text-lg-left{padding-bottom:0rem}
  .mymap-section .mymap-text{padding:3rem;font-size:90%}
@@ -81,9 +81,14 @@
      .mymap-section .mymap-text hr{border-color:#a16464;border-width:.25rem;width:30%}}*/
  
 
- .barChart-section{padding:10rem 0;background:linear-gradient(to bottom,rgba(192, 115, 43, 0.8) 0,rgba(255, 140, 9, 0.8) 80%,rgb(255, 140, 9)),url(../img/bg-masthead6.jpg);background-position:center;background-repeat:no-repeat;background-attachment:scroll;background-size:cover}
+ .barChart-section{padding:3rem 1.8rem 1rem 1.8rem;background:linear-gradient(to bottom,rgba(192, 115, 43, 0.8) 0,rgba(255, 140, 9, 0.8) 80%,rgb(255, 140, 9)),url(../img/bg-masthead6.jpg);background-position:center;background-repeat:no-repeat;background-attachment:scroll;background-size:cover}
  .barChart-section .form-inline input{box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;padding:1.25rem 2rem;height:auto;font-family:'Nunito';font-size:80%;text-transform:uppercase;letter-spacing:.15rem;border:0}
  .barChart-section .card-header{font-size: 1.3rem; color:#3f4142}
+ @media(min-width:992px){
+    .barChart-section{padding:10rem 0;}
+    .barChart-section .form-inline input{box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;padding:1.25rem 2rem;height:auto;font-family:'Nunito';font-size:80%;text-transform:uppercase;letter-spacing:.15rem;border:0}
+   
+ }
 
  /* contact card--> to be deleted */
  /*.contact-section{padding:5rem 0 0}
