@@ -86,15 +86,15 @@
  .barChart-section .card-header{font-size: 1.3rem; color:#3f4142}
 
  /* contact card--> to be deleted */
- .contact-section{padding:5rem 0 0}
+ /*.contact-section{padding:5rem 0 0}
  .contact-section .card{border:0;border-bottom:.25rem solid #64a19d}
  .contact-section .card h4{font-size:.8rem;font-family: 'Anton',sans-serif;text-transform:uppercase;letter-spacing:.15rem}
- .contact-section .card hr{border-color:#64a19d;border-width:.25rem;width:3rem}
+ .contact-section .card hr{border-color:#64a19d;border-width:.25rem;width:3rem}*/
  /* social media iconbg and icon--> to be deleted */
- .contact-section .social{margin-top:5rem}
+ /*.contact-section .social{margin-top:5rem}
  .contact-section .social a{text-align:center;height:3rem;width:3rem;background:rgba(255, 255, 255, 0.1);border-radius:100%;line-height:3rem;color:rgba(255,255,255,.3)}
  .contact-section .social a:hover{color:rgba(255,255,255,.5)} .bg-primary{background-color:#b3ff00!important}
- .contact-section .social a:active{color:#fff}
+ .contact-section .social a:active{color:#fff}*/
  
  .bg-black{background-color:rgb(255, 140, 9)!important}
  .text-primary{color:#a16464!important}
