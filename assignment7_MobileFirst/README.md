@@ -7,6 +7,7 @@
 <li>I used a template on startbootstrap.com as a basic template for my website. It took a fairly long time to deconstruct the origin css and apply new style. A map and a bar chart were embedded. Data was fetched using getJson method. 
 <br>Something strange happened when viewing the site in Safari. 
 Here is the screenshot:(The first image is the problematic one, the second is the correct version.) 
+        
 ![image](https://joyce630.github.io/joyceassignment.github.io/assignment7_MobileFirst/img/NavBarProblem.png)
 ![image](https://joyce630.github.io/joyceassignment.github.io/assignment7_MobileFirst/img/Correct.png)
 The bug comes out when I scroll up to the top manually, but it won't happen when I go up to the top by clicking on "Home" on the navbar. Is it the rendering problem of the shrink effect in css?...
