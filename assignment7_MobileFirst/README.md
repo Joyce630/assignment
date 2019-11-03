@@ -1,5 +1,5 @@
 # Assignment#7 Mobile-First Design 
----a one page website including a map and a chart
+--- A one-page website including a map and a chart
 <br>Click on the link to view the webpage:<br> https://joyce630.github.io/joyceassignment.github.io/assignment7_MobileFirst/index2.html
 
 <br><b>Introduction</b>
