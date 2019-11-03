@@ -41,11 +41,11 @@ $.getJSON(airtable_read_endpoint, function(result) {
 
 
 
-//2. Draw The Map And Tefine Its Layers(tiles)
+//2. Draw The Map And Define Its Layers(tiles)
 var mbAttr = 'Map data &copy; <a href="https://openstreetmap.org">OpenStreetMap</a>, '+'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
      mbUrl = 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1Ijoiam95Y2VsZWVjdWhrIiwiYSI6ImNrMmRlN29nYTI1eHAzY2xzM3V6dHFxamoifQ.QIW1qp-AFcGHJxmUjHo1XA';  //get default public token on: https://account.mapbox.com/
  
-// 定義了兩個mapboxTiles  mapID   
+// 定義了兩個mapboxTiles
 var outdoors = L.tileLayer(mbUrl, {id: 'mapbox.streets', attribution: mbAttr}), // find id in this site: https://www.mapbox.com/maps/streets/ (the "streets" layer looks like "outdoors" more than street..)
    satellite = L.tileLayer(mbUrl, {id: 'mapbox.satellite', attribution: mbAttr});
 
@@ -71,7 +71,7 @@ var overlays = {   //overlays-->sth put on the base layers (markers)
 
 
 
-//3. Set a Choropleth Map
+//3. Choropleth Map
 // set a default style
 function style(feature) {  
     return {
@@ -118,7 +118,7 @@ function onEachFeature(feature, layer) {  //add listeners!! when ... happens, ex
     });
 }
 
-geojson = L.geoJson(provData, {
+geojson = L.geoJson(provData, {    //通過這個getjson獲取到italyTopo2.js中，放在provData這個object的數據
     style: style,
     onEachFeature: onEachFeature
 }).addTo(map);
@@ -126,4 +126,4 @@ geojson = L.geoJson(provData, {
 //4. Actually Add The Above Functions And Layers To The Map
 //放在最下面
 L.control.layers(baseLayers,overlays).addTo(map);
-L.geoJson(statesData).addTo(map);
+//L.geoJson(statesData).addTo(map);  

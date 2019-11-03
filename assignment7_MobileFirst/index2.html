@@ -5,8 +5,8 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Assignment#7_COMM5961">
+  <meta name="author" content="Joyce LI">
 
   <title>Pop Culture Tourism of JOJO's Bizarre Advanture</title>
 
@@ -14,8 +14,8 @@
     <!--<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <!-- Plugin JavaScript -->
-    <!--<script src="vendor/jquery-easing/jquery.easing.min.js"></script>-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>-->
   
   <!-- leaflet CSS and js -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
@@ -27,6 +27,7 @@
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://unpkg.com/topojson@3"></script>
   <script src="http://d3js.org/topojson.v1.min.js"></script>
+
   <!-- chart d3 c3-->
     <!--<link rel="stylesheet" href="/path/to/c3.css">-->
     <link href="//cdnjs.cloudflare.com/ajax/libs/c3/0.1.29/c3.css" rel="stylesheet" type="text/css">
@@ -41,6 +42,7 @@
   <link href="https://fonts.googleapis.com/css?family=Anton|Righteous&display=swap" rel="stylesheet">
   <!-- gallery, map and other sections font -->
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  
   <!-- Custom styles  -->
   <link href="css/grayscale.min.css" rel="stylesheet">
     <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-grayscale/5.0.9/css/grayscale.min.css" rel="stylesheet">-->
@@ -52,7 +54,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg  fixed-top" id="mainNav">
     <div class="container" id="navContainer">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a> <!-- change to Start Travel-->
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a> 
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -79,7 +81,7 @@
       <div class="mx-auto text-center">
         <h1 class="mx-auto mb-3 text-uppercase">Travel to Italy</h1>
         <h2 class="mx-auto mt-4 mb-5">Pop Culture Tourism Of The Anime <br>JOJO's Bizarre Advanture </h2>
-         <a href="#gallery" class="btn btn-primary js-scroll-trigger ">Show Me!</a> 
+         <a href="#gallery" class="btn btn-primary js-scroll-trigger">Show Me!</a> 
         <!--<div class="startWrapper">
           <a href="#gallery" class="startbtn js-scroll-trigger" style="background-image: url(getStartBtn.svg); background-repeat: no-repeat;padding:px;max-width: 100%;background-size: cover;color:honeydew">Get Started</a>
         </div> -->
@@ -113,7 +115,7 @@
         <div class="col-xl-3 col-lg-5">
           <div class="featured-text text-center text-lg-left"> <!-- text-lg-left: sets the text alignment to left when the viewport size >992px(lg)-->
             <h4>Italy</h4>
-            <p class="text-black-50 mb-0">We collected 28 destinations in four provinces (five cities). You can simply click on the orange-bordered area to zoom into specific province, and click on the blue markers to see what place it is.</p> <!-- "50" is for 50%opacity-->
+            <p class="text-black-50 mb-0">We collected 28 destinations in four provinces (five cities). You can simply click on the map's orange-bordered area to zoom into specific province, and click on the blue markers to see what place it is. Details can be checked in the gellery above.</p> <!-- "50" is for 50%opacity-->
           </div>
         </div>
       </div>
@@ -130,10 +132,7 @@
             </div>
           </div>
         </div>-->
-
-  
-      
-
+        
     </div>
   </section>
 
@@ -144,15 +143,18 @@
         <div class="col-md-10 col-lg-8 mx-auto text-center">
            <!-- Bar Chart card and canvas-->
            <div class="card shadow mb-4">
+            <div class="card-header">
             <div class="card-body">
-              <div id="chart"> </div>
+                <div id="chart"> </div>
+                
+            </div>
             </div>
           </div>
       </div>
     </div>
   </section>
 
-  
+
 
 
   <!-- Contact Section -->
@@ -174,13 +176,17 @@
   <!-- downloaded Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  
+
+  <!-- Plugin JavaScript -->
+  <!--<script src="vendor/jquery-easing/jquery.easing.min.js"></script>-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+
 
   <!-- Custom scripts for this template -->
-     <!--<script src="js/grayscale.min.js"></script>-->
+  <!--<script src="js/grayscale.min.js"></script>-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-grayscale/5.0.9/js/grayscale.min.js" integrity="sha256-spj4omdr8o22qWojzXHE4yOp3yAxKZWnJGOTypzvvjw=" crossorigin="anonymous"></script>
   <script type="text/javascript" src="italyTopo2.js"></script>  <!-- Italy geojson data -->
-  <script src="leafTest5.js"></script> <!-- 这个要放在Topo file的下面哦...-->
+  <script src="leafTest5.js"></script> <!-- 这个要放在italyTopo2 的下面哦...-->
   <script src="chart.js"></script>
 </body>
 
