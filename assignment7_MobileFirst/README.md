@@ -1,12 +1,12 @@
 # Assignment#7 Mobile-First Design 
----a one page website including a map and a chart
+--- A one-page website including a map and a chart
 <br>Click on the link to view the webpage:<br> https://joyce630.github.io/joyceassignment.github.io/assignment7_MobileFirst/index2.html
 
 <br><b>Introduction</b>
 <ol>
 <li>I used a template on startbootstrap.com as a basic template for my website. It took a fairly long time to deconstruct the origin css and apply new style. A map and a bar chart were embedded. Data was fetched using getJson method. 
-Something strange happened when viewing the site in Safari. 
-Here is the screenshot:(The first image is the problematic one, the second is the correct version.)
+<br>Something strange happened when viewing the site in Safari. 
+Here is the screenshot:(The first img is problematic,and the second img shows the correct version. The navbar should be transparent on the top.) 
         
 ![image](https://joyce630.github.io/joyceassignment.github.io/assignment7_MobileFirst/img/NavBarProblem.png)
 ![image](https://joyce630.github.io/joyceassignment.github.io/assignment7_MobileFirst/img/Correct.png)
