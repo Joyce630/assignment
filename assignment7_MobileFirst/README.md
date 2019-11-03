@@ -1,5 +1,7 @@
 # Assignment#7 Mobile-First Design 
 ---a one page website including a map and a chart
+
+<br><b>Introductiokn</b>
 <br>I used a template on startbootstrap.com as a basic template for my website. A lot of changes were made in the css style, and also a map and a bar chart were embedded.
 
 
