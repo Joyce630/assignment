@@ -4,9 +4,9 @@
 
 <br><b>Introduction</b>
 <ol>
-<li>I used a template on startbootstrap.com as a basic template for my website. A lot of changes were made to the css style, and also a map and a bar chart were embedded.
-<li>Map: GetJson method was used to fetch markers data from my airtable API. Besides the basic layer and markers, two more layers (street and satellite layers) were added to the map. And  because I want to show data in five cities, I applied a "choropleth map" to highlight specific provinces and users can simply click on the highlighted area to zoom in conveniently. The method to add these features were acquired from the leaflet website. But I didn't figure out how to control the automatically zoom in level of the "choropleth map": the map is not big enough after being zoomed in, so users stil need to do it manually.
-<li>
+<li>I used a template on startbootstrap.com as a basic template for my website. It took a long time to deconstruct the origin css and apply new style. A map and a bar chart were embedded. Data was fetched using getJson method.
+<li>Map: Besides the basic layer and markers, two more layers (street and satellite layers) were added to the map. And  because I want to show data in five cities, I applied a "choropleth map" to highlight specific provinces and users can simply click on the highlighted area to zoom in conveniently. The method to add these features were acquired from the leaflet website. But I didn't figure out how to control the automatically zoom in level of the "choropleth map": the map is not big enough after being zoomed in, so users stil need to do it manually.
+<li>Bar Chart: The chart is roughly done. It only shows data of one city. The legend below was supposed to labeled by names of month. But when I used the name of month, the bars couldn't show orderly by month. It dosen't have a correct x axis scale. And as a result the toolip is shown as grouped. It would be much better if developed into a combined chart (bar and line with data of rainfall and temperature) with a dropdown filter (so that chart of different cities can be shown in one section).
 </ol>
 
 
