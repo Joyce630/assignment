@@ -65,12 +65,12 @@ $(document).ready(function(){
         //types:{dataSet:'line'}
         //types:dataSet.Rainfall:'line',
         },
-        /*axis: {
+        axis: {
           x: {
-            label: {text: 'month',position: 'outer-center'},
-            type: 'category',
-            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May','June','July','Aug','Sep','Nov','Dec'],
-            tick: {centered: true}
+            label: {text: 'Month',position: 'outer-center'},
+            /*type: 'category',
+            categories: [ ],
+            tick: {centered: true}*/
           },
           y: {
             label: {text: 'Temperature (˚C)',position: 'outer-middle'},
@@ -78,7 +78,7 @@ $(document).ready(function(){
             min: 0,
             padding: {top: 0,bottom: 0}
           }
-        },*/
+        },
       
     });
   }); // end .getJSON
