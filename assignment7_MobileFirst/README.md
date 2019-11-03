@@ -4,8 +4,10 @@
 
 <br><b>Introduction</b>
 <ol>
-<li>I used a template on startbootstrap.com as a basic template for my website. A lot of changes were made in the css style, and also a map and a bar chart were embedded.
+<li>I used a template on startbootstrap.com as a basic template for my website. A lot of changes were made to the css style, and also a map and a bar chart were embedded.
+<li>Map: GetJson method was used to fetch markers data from my airtable API. Besides the basic layer and markers, two more layers (street and satellite layers) were added to the map. And  because I want to show data in five cities, I applied a "choropleth map" to highlight specific provinces and users can simply click on the highlighted area to zoom in conveniently. The method to add these features were acquired from the leaflet website. But I didn't figure out how to control the automatically zoom in level of the "choropleth map": the map is not big enough after being zoomed in, so users stil need to do it manually.
 <li>
+</ol>
 
 
 
