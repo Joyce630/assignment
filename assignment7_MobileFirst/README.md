@@ -3,6 +3,7 @@
 <br>Click on the link to view the webpage:<br> https://joyce630.github.io/joyceassignment.github.io/assignment7_MobileFirst/index2.html
 
 <br><b>Introduction</b>
+
 <br>I used a template on startbootstrap.com as a basic template for my website. A lot of changes were made in the css style, and also a map and a bar chart were embedded.
 
 
