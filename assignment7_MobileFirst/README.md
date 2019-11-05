@@ -25,4 +25,4 @@ The bug comes out when I scroll up to the top manually, but it won't happen when
         
 # Proposal
 <br>The proposal of the final project is uploaded:
-<br>[Proposal_Ziqiao_1155128280](joyceassignment.github.io/assignment7_MobileFirst/Proposal_Ziqiao_1155128280.pdf)
+<br>[Proposal_Ziqiao_1155128280](https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/Proposal_Ziqiao_1155128280.pdf)
