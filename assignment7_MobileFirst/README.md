@@ -25,5 +25,5 @@ The bug comes out when I scroll up to the top manually, but it won't happen when
 
         
 # Proposal
-<br>The proposal of the final project is uploaded.
-[Proposal_Ziqiao_1155128280](/Proposal_Ziqiao_1155128280.pdf)
+<br>The proposal of the final project is uploaded:
+<br>[Proposal_Ziqiao_1155128280](/Proposal_Ziqiao_1155128280.pdf)
