@@ -17,7 +17,6 @@ The bug comes out when I scroll up to the top manually, but it won't happen when
 <li>Bar Chart: The chart is roughly done. It only shows data of one city. The legend below was supposed to labeled by names of month. But when I used the name of month, the bars couldn't show orderly by month. It dosen't have a correct x axis scale. And as a result the toolip is shown as grouped. It would be much better if developed into a combined chart (bar and line with data of rainfall and temperature) with a dropdown filter (so that chart of different cities can be shown in one section).
 </ol>
 
-
 <br><b>Source data</b>
 <li>Map-Destination information:https://airtable.com/invite/l?inviteId=invXuTgar6Wj3Eglp&inviteToken=13deb5959d2f530f0498b0ccb71a5e236200fa76c9f1f01086a5a0016355f3b5
 <li>Map-Italy GeoJSON (I didn't use all geojson in the final web and only the data of related provinces were kept): https://github.com/openpolis/geojson-italy/blob/master/geojson/limits_IT_provinces.geojson
