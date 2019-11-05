@@ -1,5 +1,5 @@
 # Assignment#7 Mobile-First Design & Proposal
-# 1.Single-page website
+# 1. Single-page Website
 Click on this link to view the webpage:<br> https://joyce630.github.io/joyceassignment.github.io/assignment7_MobileFirst/index2.html
 <br>Check the code in [index2.html](https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/index2.html).
 
@@ -23,7 +23,7 @@ The bug comes out when I scroll up to the top manually, but it won't happen when
 <li>Bar chart: https://airtable.com/invite/l?inviteId=invjb7aCmr9H31NUl&inviteToken=984f5b442f174cb7f335423f336bc5721b3f540e073b999bf8c55ffc99b83556
 
         
-# Proposal
+# 2. Proposal
 <br>The proposal of the final project is uploaded:
 <br>[Proposal_Ziqiao_1155128280](https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/Proposal_Ziqiao_1155128280.pdf)
 
