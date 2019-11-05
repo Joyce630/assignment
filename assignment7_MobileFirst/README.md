@@ -1,7 +1,7 @@
 # Assignment#7 Mobile-First Design 
 --- A one-page website including a map and a chart
 <br>Click on this link to view the webpage:<br> https://joyce630.github.io/joyceassignment.github.io/assignment7_MobileFirst/index2.html
-<br>Check the code in <b>index2.html</b>
+<br>Check the code in <b>[index2.html](https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/index2.html)</b>
 
 <br><b>Introduction</b>
 <ol>
@@ -26,4 +26,4 @@ The bug comes out when I scroll up to the top manually, but it won't happen when
 # Proposal
 <br>The proposal of the final project is uploaded:
 <br>[Proposal_Ziqiao_1155128280](https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/Proposal_Ziqiao_1155128280.pdf)
-[Proposal_Ziqiao_1155128280](joyceassignment.github.io/assignment7_MobileFirst/Proposal_Ziqiao_1155128280.pdf)
+
