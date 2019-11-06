@@ -7,7 +7,7 @@ Click on this link to view the webpage:<br> https://joyce630.github.io/joyceassi
 <ol>
 <li>I used a template on startbootstrap.com as a basic template for my website. It took a fairly long time to deconstruct the origin css and apply new style. A map and a bar chart were embedded. Data was fetched using getJson method. Enough space in the webpage was left for mobile users to scroll with their fingers.
 <br>Something strange happened when viewing the site in Safari. 
-Here are the screenshots:(The first img is problematic,and the second img shows the correct version. The navbar should be transparent on the top.) 
+Here are the screenshots:(The first img is problematic,and the second one shows the correct version. The navbar should be transparent on the top.) 
         
 ![image](https://joyce630.github.io/joyceassignment.github.io/assignment7_MobileFirst/img/NavBarProblem.png)
 ![image](https://joyce630.github.io/joyceassignment.github.io/assignment7_MobileFirst/img/Correct.png)
