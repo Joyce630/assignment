@@ -1,10 +1,10 @@
 # Assignment#7 Mobile-First Design & Proposal
 # 1. Single-page Website
 Click on this link to view the webpage:<br> https://joyce630.github.io/joyceassignment.github.io/assignment7_MobileFirst/index2.html
-<br>Check the code in [index2.html](https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/index2.html).
-[grayscale.min.css](https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/css/grayscale.min.css)
-[chart.js](https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/chart.js)
-[leaflet5.js](https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/leafletTest5.js)
+<br>Check the code in [index2.html], (https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/index2.html).
+[grayscale.min.css], (https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/css/grayscale.min.css)
+[chart.js], (https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/chart.js)
+[leaflet5.js], (https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/leafletTest5.js)
 
 <br><b>Introduction</b>
 <ol>
