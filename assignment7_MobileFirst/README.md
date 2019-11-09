@@ -1,13 +1,17 @@
 # Assignment#7 Mobile-First Design & Proposal
 # 1. Single-page Website
 Click on this link to view the webpage:<br> https://joyce630.github.io/joyceassignment.github.io/assignment7_MobileFirst/index2.html
-<br>Check the code in [index2.html](https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/index2.html).
+<br>Check the code in:
+<br>[index2.html](https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/index2.html)
+<br>[grayscale.min.css](https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/css/grayscale.min.css)
+<br>[chart.js](https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/chart.js)
+<br>[leaflet5.js](https://github.com/Joyce630/joyceassignment.github.io/blob/master/assignment7_MobileFirst/leafletTest5.js)
 
 <br><b>Introduction</b>
 <ol>
 <li>I used a template on startbootstrap.com as a basic template for my website. It took a fairly long time to deconstruct the origin css and apply new style. A map and a bar chart were embedded. Data was fetched using getJson method. Enough space in the webpage was left for mobile users to scroll with their fingers.
 <br>Something strange happened when viewing the site in Safari. 
-Here are the screenshots:(The first img is problematic,and the second img shows the correct version. The navbar should be transparent on the top.) 
+Here are the screenshots:(The first img is problematic,and the second one shows the correct version. The navbar should be transparent on the top.) 
         
 ![image](https://joyce630.github.io/joyceassignment.github.io/assignment7_MobileFirst/img/NavBarProblem.png)
 ![image](https://joyce630.github.io/joyceassignment.github.io/assignment7_MobileFirst/img/Correct.png)
